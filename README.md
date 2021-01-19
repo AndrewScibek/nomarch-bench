@@ -1,5 +1,7 @@
 # Current Stats #
 
+ ### PER TASK METRICS ###
+  ---
 Name     |   # times run |        # fails |   task/s |  fail/s
 ----------|--------------|-----------------|---------|----------------------------
    1: Pipeline 1 Complete |        63,762 |         0 (0%) |     2898 |    0.00
@@ -8,7 +10,7 @@ Name     |   # times run |        # fails |   task/s |  fail/s
    4: Pipeline 2 Missing  |        63,547 |         0 (0%) |     2888 |    0.00
  Aggregated               |       255,299 |         0 (0%) |    11604 |    0.00
 
- ---
+
 
  |Name                     |    Avg (ms) |        Min |         Max |     Median|
   |-------------------------|-------------|------------|-------------|-----------|
@@ -17,6 +19,9 @@ Name     |   # times run |        # fails |   task/s |  fail/s
  |  3: Pipeline 2 Complete |      386.26 |        211 |         468 |        360|
   | 4: Pipeline 2 Missing  |       77.18 |         66 |         173 |         69|
  |Aggregated               |      174.65 |         66 |         594 |        140|
+
+
+ ### PER REQUEST METRICS ###
 
 ---
 
@@ -28,7 +33,6 @@ Name     |   # times run |        # fails |   task/s |  fail/s
  POST Pipeline 2 Missing  |        63,547 |         0 (0%) |     2888 |    0.00
  Aggregated               |       574,357 |         0 (0%) |    26107 |    0.00
 
- ---
 
  Name                     |    Avg (ms) |        Min |        Max |      Median
  -------------------------|-------------|------------|-----------|----------------
@@ -49,7 +53,7 @@ Name     |   # times run |        # fails |   task/s |  fail/s
  POST Pipeline 2 Complete |     69 |     71 |    170 |    170 |    170 |    170
  POST Pipeline 2 Missing  |     69 |     71 |    170 |    170 |    170 |    170
  Aggregated               |     69 |     71 |    170 |    170 |    170 |    170
- ------------------------------------------------------------------------------
+
  Name                     |                                        Status codes
  -------------------------|----------------------------------------------------
  POST Pipeline 1 Complete |                                       127,315 [200]
