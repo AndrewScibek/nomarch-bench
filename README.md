@@ -1,6 +1,9 @@
 # Current Stats #
 
- ### PER TASK METRICS ###
+Currently these stats are bad because im running non release version on windows. Release flag wont compile on windows so can test this later on unix
+
+### PER TASK METRICS ###
+
   ---
 Name     |   # times run |        # fails |   task/s |  fail/s
 ----------|--------------|-----------------|---------|----------------------------
@@ -9,8 +12,6 @@ Name     |   # times run |        # fails |   task/s |  fail/s
    3: Pipeline 2 Complete |        64,422 |         0 (0%) |     2928 |    0.00
    4: Pipeline 2 Missing  |        63,547 |         0 (0%) |     2888 |    0.00
  Aggregated               |       255,299 |         0 (0%) |    11604 |    0.00
-
-
 
  |Name                     |    Avg (ms) |        Min |         Max |     Median|
   |-------------------------|-------------|------------|-------------|-----------|
