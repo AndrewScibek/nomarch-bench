@@ -26,7 +26,6 @@ Name     |   # times run |        # fails |   task/s |  fail/s
  POST Pipeline 1 Missing  |        63,568 |         0 (0%) |     2889 |    0.00
  POST Pipeline 2 Complete |       319,927 |         0 (0%) |    14542 |    0.00
  POST Pipeline 2 Missing  |        63,547 |         0 (0%) |     2888 |    0.00
- -------------------------|---------------|----------------|----------|--------
  Aggregated               |       574,357 |         0 (0%) |    26107 |    0.00
 
  ---
