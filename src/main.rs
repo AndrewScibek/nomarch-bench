@@ -114,7 +114,7 @@ async fn nomarch_event_pipeline_2_all_steps(user: &GooseUser) -> GooseTaskResult
     }
     
     let fifth: Pipeline = Pipeline{
-        pipeline: "pipeline1".into(),
+        pipeline: "pipeline2".into(),
         service: "step5".into(),
         events: vec!(uuid.clone())
     };
